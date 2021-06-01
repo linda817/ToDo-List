@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html lang="end">
+<head>
+	<title>TO-DO LIST</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<section id="todoList">
+		<div class="tarjeta">
+
+			<h1>TO-DO LIST</h1>
+			<div class="espacioBarra">
+				<span id="checkAll" class="botonStyle"><i class="fas fa-angle-down"></i></span>
+				<span id="uncheckAll" class="botonStyle"><i class="fas fa-angle-up"></i></span>
+				<input id="spaceInput" type="text" placeholder="Add new">
+				<span id="deleteAll" class="botonStyle"><i class="far fa-trash-alt"></i></span>
+				<span id="showLista" class="botonStyle"><i class="far fa-eye"></i></span>
+				<span id="hideLista" class="botonStyle displayHidden"><i class="far fa-eye-slash"></i></span>
+			</div>
+			<div class="espacioFiltro">
+				<span id="allItem" class="botonStyle"><i class="fas fa-globe-americas"></i></span>
+				<span id="allCheck" class="botonStyle"><i class="fas fa-tasks"></i></span>
+				<span id="allTachado" class="botonStyle"><i class="fas fa-strikethrough"></i></span>
+			</div>
+			<div class="espacioLista">
+				<ul id="spaceList">
+					<li id="noElem">No hay elementos</li>
+				</ul>
+			</div>
+
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

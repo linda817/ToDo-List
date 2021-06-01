@@ -1,0 +1,145 @@
+#todoList{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 35px;
+	color: #F2D8A7;
+	font-style: oblique;
+
+}
+
+.tarjeta{
+	background-color: #77A1A6;
+	box-shadow: 15px 20px #024059;
+	text-align: center;
+	width: 100%;
+  	max-width: 800px;
+}
+
+.botonStyle{
+	margin: 5px;
+	font-size: 180%;
+	color: #024059;
+	padding: 2px 7px;
+}
+
+.botonStyle:hover{
+	border-radius: 4px;
+	background-color: #F2D8A7;
+}
+
+.displayHidden{
+	display: none;
+}
+
+#spaceInput{
+	color: #024059;
+	font-size: 15px;
+	width: 250;
+	height: 45;
+	border-radius: 12px;
+	border: 3px solid #024059;
+  	background-color: #77A1A6;
+}
+
+input:focus{
+	outline: none;
+}
+
+#spaceInput::placeholder{
+	color: #F2D8A7;
+	opacity: 0.8;
+}
+
+.espacioFiltro{
+	margin: 5px;
+	padding-left: -100px;
+}
+
+.espacioLista{
+	height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	color: #024059;
+	margin: 5px;
+}
+
+li{
+	list-style: none;
+	margin: 5px;
+}
+
+#noElem{
+	padding: 5px 40px 0px 0px;
+	font-size: 20px;
+	color: #024059;
+}
+
+.textTachado{
+	text-decoration: line-through;
+	text-decoration-style: wavy;
+	text-decoration-color: #F2D8A7;
+	color: #024059;
+}
+
+.itemNuevo{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.itemNuevo:hover{
+	color: #F2D8A7;
+}
+
+.itemQuitar{
+	margin-left: 25px;
+	padding: 3px;
+	cursor: default;
+	font-size: 20px;
+}
+
+.itemQuitar:hover{
+	border-radius: 10px;
+	background-color: #F2D8A7;
+	color: #024059;
+}
+
+.itemHecho{
+	font-size: 20px;
+	margin-right: 15px;
+	padding: 3px;
+	cursor: default;
+}
+
+.itemHecho:hover{
+	background-color: #F9ECA0;
+	border-radius: 10px;
+}
+
+.itemCheck{
+	background-color: #F2D8A7;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*fondo*/
+::-webkit-scrollbar-track {
+  background: #F2D8A7; 
+}
+ 
+/*barra*/
+::-webkit-scrollbar-thumb {
+  background: #A62940; 
+}
+
+/* barra hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BF2424; 
+}
